@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>D N Hari Vikneshwar Birthday</title>
+    <style media="screen">
+
+
+      .cont{
+        display: none;
+        margin-left: 43%;
+      }
+
+      .ont{
+        display: none;
+        margin-left: 25%;
+      }
+
+      .abc{
+        display: none;
+        margin-left: 34%;
+      }
+
+      .bcd{
+        display: none;
+        margin-left: 25%;
+      }
+
+      .cde{
+        display: none;
+        margin-left: 37%;
+      }
+
+      .def{
+        display: none;
+        margin-left: 40%;
+      }
+
+      .efg{
+        display: none;
+        margin-left: 47%;
+      }
+
+
+      .fgh{
+        display: none;
+        margin-left: 40%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <center>
+
+    <div>
+      <h4>Message From D.N.Nirmalbalaji Click the below button to view it.</h4>
+      <button type="button" name="button" onclick=a()>Click Here</button>
+    </div>
+    <div>
+    <div class="cont">
+      <h1 align="center">18-May-2022</h1>
+    </div>
+    <div class="abc">
+      <h3 align="center">Same Day at 1998, My Brother Mandus was born.</h3><br>
+    </div>
+    <div class="bcd">
+      <h3 align="center">Count your Life by Smiles and Memories, Count your Age by Friends not years, <br>May God Brings you Lot of Smiles, Memories and Friends in the coming year.</h3><br>
+    </div>
+    <div class="efg">
+      <center>  &#128081;&#128081;&#128081; </center>
+    </div>
+    <div class="cde">
+      <h1 align="center">HAPPY BIRTHDAY TO<br>D N HARI VIKNESHWAR</h1><br>
+    </div>
+    <div class="def">
+      <h2 align="center">Our Memorable Portfolio</h2>
+    </div>
+    <div class="fgh">
+      <video src="VIDEO.mp4" controls>
+      </video>
+    </div>
+
+    <div class="ont">
+
+    </div>
+    </div>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      var myIndex = 0;
+      caro()
+
+      function caro() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (var i = 0; i < x.length; i++){
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length){
+          myIndex = 1
+        }
+        x[myIndex-1].style.display = "block";
+        setTimeout(caro, 4000);
+      }
+
+
+    </script>
+    <script>
+      function a(){
+      document.querySelector(".cont").style.display = "flex";
+      document.querySelector(".ont").style.display = "flex";
+      document.querySelector(".abc").style.display = "flex";
+      document.querySelector(".bcd").style.display = "flex";
+      document.querySelector(".cde").style.display = "flex";
+      document.querySelector(".def").style.display = "flex";
+      document.querySelector(".efg").style.display = "flex";
+      document.querySelector(".fgh").style.display = "flex";
+      var audio = new Audio("HBD.mp3");
+      audio.play();
+    }
+    </script>
+    </center>
+    </body>
+</html>
